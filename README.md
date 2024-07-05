@@ -1,36 +1,30 @@
-# Health Care Worker @Home
-
-HCW@Home is a fork of HUG@Home solution co-developped by Hôpital Universitaire de Genève and Iabsis SARL.
-
-HCW@Home is a scalable, institution-level secure teleconsultation system for typical telemedicine scenarios, achieved through close collaboration with healthcare professionals. It is fully open-source and offers integrated features for chat, audio, and video calls using WebRTC.
-
-### Feature
-
-- Voice & Video consultations
-- Secure Chat
-- Invite patient in seconds by SMS or Email
-- Send attachment or image
-- PDF reporting
-- Connect to external solution (OpenEMR)
-- Invite guess and translator
-- External authentication (SAML, JWT, Active Directory)
-
-### Links
-
-- [Official Website](https://hcw-at-home.com/)
-- [HUG page about the solution](https://www.hug.ch/medecine-premier-recours/hughome)
-
-### Licensing
-
-Health Care Worker is provided under GPLv3.
-
-### Credit
-
-Health Care Worker @Home is supported by:
-
-- [Fondation privée des HUG](https://www.fondationhug.org/)
-- [Iabsis SARL](https://www.iabsis.com)
-
-### Installation
-
-The installation process has been moved into [https://hcw-at-home.com/slides/](https://hcw-at-home.com/slides/).
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">居家医护人员</font></font></h1><a id="user-content-health-care-worker-home" class="anchor" aria-label="永久链接：居家医护人员" href="#health-care-worker-home"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HCW@Home 是日内瓦大学医院和 Iabsis SARL 共同开发的 HUG@Home 解决方案的一个分支。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HCW@Home 是一个可扩展的机构级安全远程会诊系统，适用于典型的远程医疗场景，通过与医疗专业人士的密切合作实现。它是完全开源的，并提供使用 WebRTC 进行聊天、音频和视频通话的集成功能。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特征</font></font></h3><a id="user-content-feature" class="anchor" aria-label="固定链接：功能" href="#feature"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语音和视频咨询</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安全聊天</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过短信或电子邮件在几秒钟内邀请患者</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发送附件或图片</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PDF 报告</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">连接到外部解决方案（OpenEMR）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">邀请猜谜和翻译</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">外部身份验证（SAML、JWT、Active Directory）</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接</font></font></h3><a id="user-content-links" class="anchor" aria-label="永久链接：链接" href="#links"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://hcw-at-home.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">官方网站</font></font></a></li>
+<li><a href="https://www.hug.ch/medecine-premier-recours/hughome" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关解决方案的 HUG 页面</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">许可</font></font></h3><a id="user-content-licensing" class="anchor" aria-label="永久链接：许可" href="#licensing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">医疗保健工作者根据 GPLv3 提供。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">信用</font></font></h3><a id="user-content-credit" class="anchor" aria-label="永久链接：信用" href="#credit"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Health Care Worker @Home 获得以下支持：</font></font></p>
+<ul dir="auto">
+<li><a href="https://www.fondationhug.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HUG 私人基金会</font></font></a></li>
+<li><a href="https://www.iabsis.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">拉布西斯有限责任公司</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></h3><a id="user-content-installation" class="anchor" aria-label="固定链接：安装" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装过程已移至</font></font><a href="https://hcw-at-home.com/slides/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://hcw-at-home.com/slides/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+</article></div>
